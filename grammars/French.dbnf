@@ -257,46 +257,39 @@ ListNP_obl ::= ListNP_obl Adv_comma # head conj
 #pos ADJ A
 #pos PROPN PN PN_one
 #pos ADV Adv IAdv AdA AdV Predet neg
-#pos SCONJ Subj ce ça si que
+#pos SCONJ Subj ce ça si que s'
 #pos CCONJ Conj Conj_pre
 #pos DET Det IDet
 #pos PRON Pron IP RP Pron_poss il
-#pos PART
+#pos PART n' ne pas
 #pos PUNCT Punct Punct_appos comma quote colon parenth
 #pos NUM Card Digits Card_one
 #pos ADP Prep
 #pos SYM Symb
 
 -- structural word lexicon: normal categories
-#token Prep at from in of on to with than
-#token IP who whom what
-#token IAdv when where why
-#token AdA very too genetically
-#token AdV definitely always never
-#token Det a an the every some many no
-#token Pron I me you he him she her it we us they them
-#token Subj if when although because as
-#token aux can could must will would shall should
+#token Prep
+#token IP qui que quoi
+#token IAdv quand où comment
+#token AdA 
+#token AdV 
+#token Det l' d' de le la un une des les du
+#token Pron 
+#token Subj
+#token aux 
 #token Punct . ! ?
 #token Punct_appos , :
-#token Conj and or nor
-#token Conj_pre both either neither
-#token IDet which
-#token Pron_poss my your his her its our their
-#token RP that who
-#token Card five
+#token Conj et ou
+#token Conj_pre 
+#token IDet
+#token Pron_poss
+#token RP que qui
+#token Card cinq
 
 -- structural word lexicon: syncategorematic words
-#token cop am is are was were be been being
-#token be_V is are was were be been being
-#token do do does did
-#token have have has had
-#token neg not n't
-#token that that
-#token to to
-#token it it
-#token if if whether
-#token there there
+#token cop
+#token être_V été être
+#token neg non ne pas
 #token comma ,
 #token colon :
 #token quote "
