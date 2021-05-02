@@ -17,7 +17,7 @@ Utt ::= Num
 S ::= NP VP # nsubj head
 S ::= NP aux neg VP  # nsubj aux advmod head
 S ::= NP aux neg? VP  # nsubj aux advmod head
-S ::= NP aux neg? a? VP  # nsubj aux advmod aux head
+S ::= NP aux neg? aux? VP  # nsubj aux advmod aux head
 
 S ::= NP cop AdV? neg? Comp # nsubj cop advmod advmod head
 S ::= NP aux AdV? neg? cop Comp # nsubj aux advmod advmod cop head
@@ -25,7 +25,7 @@ S ::= NP aux AdV? neg? a? cop Comp # nsubj aux advmod advmod aux cop head
 
 S ::= NP cop AdV? neg? VP_pass # nsubj:pass aux:pass advmod advmod head
 S ::= NP aux AdV? neg? cop VP_pass # nsubj:pass aux advmod advmod aux:pass head
-S ::= NP aux AdV? neg? a? cop VP_pass # nsubj:pass aux advmod advmod aux aux:pass head
+S ::= NP aux AdV? neg? aux? cop VP_pass # nsubj:pass aux advmod advmod aux aux:pass head
 
 S ::= expl AdV AdV? neg? NP # head advmod advmod nsubj
 S ::= expl aux AdV? neg? AdV neg? NP # expl aux advmod advmod head nsubj
@@ -36,6 +36,7 @@ S ::= NP AdV neg? SC # nsubj head advmod ccomp
 S ::= NP aux neg? AdV SC # nsubj aux advmod head ccomp
 S ::= NP aux neg? aux? AdV SC # nsubj aux advmod aux head ccomp
 
+S ::= NP VP SC # nsubj head csubj
 S ::= SC VP # csubj head
 S ::= SC aux neg VP # csubj aux advmod head
 S ::= SC cop neg? VP_pass # csubj:pass aux:pass advmod head
@@ -102,6 +103,7 @@ S  ::= NP_oblcomma S # nmod head
 -- embedded sentences
 SC ::= S_ça
 SC ::= S_ce
+SC ::= S_que
 SC ::= QS
 SC ::= VP_to
 
@@ -113,7 +115,7 @@ VP ::= V2 NP_obl # head obl
 VP ::= V3 NP NP # head iobj obj
 VP ::= V2C NP NP # head obj xcomp
 VP ::= V2C NP AP # head obj xcomp
-VP ::= VS S_that # head ccomp
+VP ::= VS S_que # head ccomp
 VP ::= VV VP_to # head xcomp
 VP ::= V2V NP VP # head obj xcomp
 VP ::= V2V NP VP_to # head obj xcomp
