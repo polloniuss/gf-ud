@@ -1,0 +1,474 @@
+# position word postag head label
+
+# text = Qui sont-ils ?
+# text_en = Who are they?
+1	Qui	_	PRON	_	_	0	root	_	_
+2	sont	_	AUX	_	_	1	cop	_	_
+3	-ils	_	PRON	_	_	1	nsubj	_	_
+4	?	_	PUNCT	_	_	1	punct	_	_
+
+# text = On passe à proximité d’une ville avec deux minarets.
+# text_en = A small town with two minarets glides by.
+1	On	_	PRON	_	_	2	nsubj	_	_
+2	passe	_	VERB	_	_	0	root	_	_
+3	à	_	ADP	_	_	7	case	_	_
+4	proximité	_	NOUN	_	_	3	fixed	_	_
+5	d’	_	ADP	_	_	3	fixed	_	_
+6	une	_	DET	_	_	7	det	_	_
+7	ville	_	NOUN	_	_	2	obl	_	_
+8	avec	_	ADP	_	_	10	case	_	_
+9	deux	_	NUM	_	_	10	nummod	_	_
+10	minarets	_	NOUN	_	_	7	nmod	_	_
+11	.	_	PUNCT	_	_	2	punct	_	_
+
+# text = Je n’étais qu’un garçon avec les chaussures couvertes de boue.
+# text_en = I was just a boy with muddy shoes.
+1	Je	_	PRON	_	_	6	nsubj	_	_
+2	n’	_	ADV	_	_	6	advmod	_	_
+3	étais	_	AUX	_	_	6	cop	_	_
+4	qu’	_	ADV	_	_	6	advmod	_	_
+5	un	_	DET	_	_	6	det	_	_
+6	garçon	_	NOUN	_	_	0	root	_	_
+7	avec	_	ADP	_	_	9	case	_	_
+8	les	_	DET	_	_	9	det	_	_
+9	chaussures	_	NOUN	_	_	6	nmod	_	_
+10	couvertes	_	ADJ	_	_	9	amod	_	_
+11	de	_	ADP	_	_	12	case	_	_
+12	boue	_	NOUN	_	_	10	obl	_	_
+13	.	_	PUNCT	_	_	6	punct	_	_
+
+# text = La police routière de Shenzhen a opté pour des pénalités inhabituelles dans le passé.
+# text_en = Shenzhen's traffic police have opted for unconventional penalties before.
+1	La	_	DET	_	_	2	det	_	_
+2	police	_	NOUN	_	_	7	nsubj	_	_
+3	routière	_	ADJ	_	_	2	amod	_	_
+4	de	_	ADP	_	_	5	case	_	_
+5	Shenzhen	_	PROPN	_	_	2	nmod	_	_
+6	a	_	AUX	_	_	7	aux:tense	_	_
+7	opté	_	VERB	_	_	0	root	_	_
+8	pour	_	ADP	_	_	10	case	_	_
+9	des	_	DET	_	_	10	det	_	_
+10	pénalités	_	NOUN	_	_	7	obl	_	_
+11	inhabituelles	_	ADJ	_	_	10	amod	_	_
+12	dans	_	ADP	_	_	14	case	_	_
+13	le	_	DET	_	_	14	det	_	_
+14	passé	_	NOUN	_	_	11	obl	_	_
+15	.	_	PUNCT	_	_	7	punct	_	_
+
+# text = L'étude des volcans s'appelle la volcanologie, ou parfois vulcanologie.
+# text_en = The study of volcanoes is called volcanology, sometimes spelled vulcanology.
+1	L'	_	DET	_	_	2	det	_	_
+2	étude	_	NOUN	_	_	7	nsubj	_	_
+3-4	des	_	_	_	_	_	_	_	_
+3	de	_	ADP	_	_	5	case	_	_
+4	les	_	DET	_	_	5	det	_	_
+5	volcans	_	NOUN	_	_	2	nmod	_	_
+6	s'	_	PRON	_	_	7	obj	_	_
+7	appelle	_	VERB	_	_	0	root	_	_
+8	la	_	DET	_	_	9	det	_	_
+9	volcanologie	_	NOUN	_	_	7	xcomp	_	_
+10	,	_	PUNCT	_	_	13	punct	_	_
+11	ou	_	CCONJ	_	_	13	cc	_	_
+12	parfois	_	ADV	_	_	13	advmod	_	_
+13	vulcanologie	_	NOUN	_	_	9	conj	_	_
+14	.	_	PUNCT	_	_	7	punct	_	_
+
+# text = Ca a été mis en œuvre au large de la côte du Mexique d'avril à juin.
+# text_en = It was conducted just off the Mexican coast from April to June.
+1	Ca	_	PRON	_	_	4	nsubj:pass	_	_
+2	a	_	AUX	_	_	4	aux:tense	_	_
+3	été	_	AUX	_	_	4	aux:pass	_	_
+4	mis	_	VERB	_	_	0	root	_	_
+5	en	_	ADP	_	_	6	case	_	_
+6	œuvre	_	NOUN	_	_	4	obl	_	_
+7-8	au	_	_	_	_	_	_	_	_
+7	à	_	ADP	_	_	9	case	_	_
+8	le	_	DET	_	_	9	det	_	_
+9	large	_	NOUN	_	_	4	obl	_	_
+10	de	_	ADP	_	_	12	case	_	_
+11	la	_	DET	_	_	12	det	_	_
+12	côte	_	NOUN	_	_	9	nmod	_	_
+13-14	du	_	_	_	_	_	_	_	_
+13	de	_	ADP	_	_	15	case	_	_
+14	le	_	DET	_	_	15	det	_	_
+15	Mexique	_	PROPN	_	_	12	nmod	_	_
+16	d'	_	ADP	_	_	17	case	_	_
+17	avril	_	NOUN	_	_	4	obl	_	_
+18	à	_	ADP	_	_	19	case	_	_
+19	juin	_	NOUN	_	_	17	nmod	_	_
+20	.	_	PUNCT	_	_	4	punct	_	_
+
+# text = Sa voix a littéralement fait le tour du monde, dit Leive.
+# text_en = "Her voice literally went around the world," Leive said.
+1	Sa	_	DET	_	_	2	det	_	_
+2	voix	_	NOUN	_	_	5	nsubj	_	_
+3	a	_	AUX	_	_	5	aux:tense	_	_
+4	littéralement	_	ADV	_	_	5	advmod	_	_
+5	fait	_	VERB	_	_	12	parataxis	_	_
+6	le	_	DET	_	_	7	det	_	_
+7	tour	_	NOUN	_	_	5	obj	_	_
+8-9	du	_	_	_	_	_	_	_	_
+8	de	_	ADP	_	_	10	case	_	_
+9	le	_	DET	_	_	10	det	_	_
+10	monde	_	NOUN	_	_	7	nmod	_	_
+11	,	_	PUNCT	_	_	5	punct	_	_
+12	dit	_	VERB	_	_	0	root	_	_
+13	Leive	_	PROPN	_	_	12	nsubj	_	_
+14	.	_	PUNCT	_	_	12	punct	_	_
+
+# text = Un témoin a dit à la police que la victime avait attaqué le suspect en avril.
+# text_en = A witness told police that the victim had attacked the suspect in April.
+1	Un	_	DET	_	_	2	det	_	_
+2	témoin	_	NOUN	_	_	4	nsubj	_	_
+3	a	_	AUX	_	_	4	aux:tense	_	_
+4	dit	_	VERB	_	_	0	root	_	_
+5	à	_	ADP	_	_	7	case	_	_
+6	la	_	DET	_	_	7	det	_	_
+7	police	_	NOUN	_	_	4	obl	_	_
+8	que	_	SCONJ	_	_	12	mark	_	_
+9	la	_	DET	_	_	10	det	_	_
+10	victime	_	NOUN	_	_	12	nsubj	_	_
+11	avait	_	AUX	_	_	12	aux:tense	_	_
+12	attaqué	_	VERB	_	_	4	ccomp	_	_
+13	le	_	DET	_	_	14	det	_	_
+14	suspect	_	NOUN	_	_	12	obj	_	_
+15	en	_	ADP	_	_	16	case	_	_
+16	avril	_	NOUN	_	_	12	obl	_	_
+17	.	_	PUNCT	_	_	4	punct	_	_
+
+# text = C'est particulièrement évident quand le prénom d'une célébrité est rare à l'origine.
+# text_en = It's most obvious when a celebrity's name is initially quite rare.
+1	C'	_	PRON	_	_	4	nsubj	_	_
+2	est	_	AUX	_	_	4	cop	_	_
+3	particulièrement	_	ADV	_	_	4	advmod	_	_
+4	évident	_	ADJ	_	_	0	root	_	_
+5	quand	_	SCONJ	_	_	12	mark	_	_
+6	le	_	DET	_	_	7	det	_	_
+7	prénom	_	NOUN	_	_	12	nsubj	_	_
+8	d'	_	ADP	_	_	10	case	_	_
+9	une	_	DET	_	_	10	det	_	_
+10	célébrité	_	NOUN	_	_	7	nmod	_	_
+11	est	_	AUX	_	_	12	cop	_	_
+12	rare	_	ADJ	_	_	4	advcl	_	_
+13	à	_	ADP	_	_	15	case	_	_
+14	l'	_	DET	_	_	15	det	_	_
+15	origine	_	NOUN	_	_	12	obl	_	_
+16	.	_	PUNCT	_	_	4	punct	_	_
+
+# text = Cette conjoncture n’a en rien entravé les investisseurs qui ont afflué vers ces fonds.
+# text_en = This has not stopped investors flocking to put their money in the funds.
+1	Cette	_	DET	_	_	2	det	_	_
+2	conjoncture	_	NOUN	_	_	7	nsubj	_	_
+3	n’	_	ADV	_	_	7	advmod	_	_
+4	a	_	AUX	_	_	7	aux:tense	_	_
+5	en	_	ADP	_	_	6	case	_	_
+6	rien	_	PRON	_	_	7	obl	_	_
+7	entravé	_	VERB	_	_	0	root	_	_
+8	les	_	DET	_	_	9	det	_	_
+9	investisseurs	_	NOUN	_	_	7	obj	_	_
+10	qui	_	PRON	_	_	12	nsubj	_	_
+11	ont	_	AUX	_	_	12	aux:tense	_	_
+12	afflué	_	VERB	_	_	9	acl:relcl	_	_
+13	vers	_	ADP	_	_	15	case	_	_
+14	ces	_	DET	_	_	15	det	_	_
+15	fonds	_	NOUN	_	_	12	obl	_	_
+16	.	_	PUNCT	_	_	7	punct	_	_
+
+# text = Cette discordance entre les résultats économiques et le discours politique est bien connu, ou devrait l'être.
+# text_en = This discordance between economic data and political rhetoric is familiar, or should be.
+1	Cette	_	DET	_	_	2	det	_	_
+2	discordance	_	NOUN	_	_	13	nsubj	_	_
+3	entre	_	ADP	_	_	5	case	_	_
+4	les	_	DET	_	_	5	det	_	_
+5	résultats	_	NOUN	_	_	2	nmod	_	_
+6	économiques	_	ADJ	_	_	5	amod	_	_
+7	et	_	CCONJ	_	_	9	cc	_	_
+8	le	_	DET	_	_	9	det	_	_
+9	discours	_	NOUN	_	_	5	conj	_	_
+10	politique	_	ADJ	_	_	9	amod	_	_
+11	est	_	AUX	_	_	13	cop	_	_
+12	bien	_	ADV	_	_	13	advmod	_	_
+13	connu	_	ADJ	_	_	0	root	_	_
+14	,	_	PUNCT	_	_	16	punct	_	_
+15	ou	_	CCONJ	_	_	16	cc	_	_
+16	devrait	_	VERB	_	_	13	conj	_	_
+17	l'	_	PRON	_	_	16	xcomp	_	_
+18	être	_	AUX	_	_	17	cop	_	_
+19	.	_	PUNCT	_	_	13	punct	_	_
+
+# text = L'étude de faisabilité estime qu'il faudrait environ quatre minutes aux passagers pour traverser le Potomac en gondole.
+# text_en = The feasibility study estimates that it would take passengers about four minutes to cross the Potomac River on the gondola.
+1	L'	_	DET	_	_	2	det	_	_
+2	étude	_	NOUN	_	_	5	nsubj	_	_
+3	de	_	ADP	_	_	4	case	_	_
+4	faisabilité	_	NOUN	_	_	2	nmod	_	_
+5	estime	_	VERB	_	_	0	root	_	_
+6	qu'	_	SCONJ	_	_	8	mark	_	_
+7	il	_	PRON	_	_	8	expl:subj	_	_
+8	faudrait	_	VERB	_	_	5	ccomp	_	_
+9	environ	_	ADV	_	_	10	advmod	_	_
+10	quatre	_	NUM	_	_	11	nummod	_	_
+11	minutes	_	NOUN	_	_	8	obj	_	_
+12-13	aux	_	_	_	_	_	_	_	_
+12	à	_	ADP	_	_	14	case	_	_
+13	les	_	DET	_	_	14	det	_	_
+14	passagers	_	NOUN	_	_	8	obl	_	_
+15	pour	_	ADP	_	_	16	mark	_	_
+16	traverser	_	VERB	_	_	8	advcl	_	_
+17	le	_	DET	_	_	18	det	_	_
+18	Potomac	_	PROPN	_	_	16	obj	_	_
+19	en	_	ADP	_	_	20	case	_	_
+20	gondole	_	NOUN	_	_	16	obl	_	_
+21	.	_	PUNCT	_	_	5	punct	_	_
+
+# test = il collectionnait les cartes et les échangait avec les autres garçons .
+# text_en = he collected cards and traded them with the other boys .
+1	il	_	PRON	_	_	2	nsubj	_	_
+2	collectionnait	_	VERB	_	_	0	root	_	_
+3	les	_	DET	_	_	4	det	_	_
+4	cartes	_	NOUN	_	_	2	obj	_	_
+5	et	_	CCONJ	_	_	7	cc	_	_
+6	les	_	PRON	_	_	7	obj	_	_
+7	échangait	_	VERB	_	_	2	conj	_	_
+8	avec	_	ADP	_	_	11	case	_	_
+9	les	_	DET	_	_	11	det	_	_
+10	autres	_	ADJ	_	_	11	amod	_	_
+11	garçons	_	NOUN	_	_	7	obl	_	_
+12	.	_	PUNCT	_	_	2	punct	_	_
+
+# text = ce crime entraîne un peine de cinq ans de prison .
+# text_en = this crime carries a penalty of five years in prison .
+1	ce	_	DET	_	_	2	det	_	_
+2	crime	_	NOUN	_	_	3	nmod	_	_
+3	entraîne	_	VERB	_	_	0	root	_	_
+4	une	_	DET	_	_	5	det	_	_
+5	peine	_	NOUN	_	_	3	obj	_	_
+6	de	_	ADP	_	_	8	case	_	_
+7	cinq	_	NUM	_	_	8	nummod	_	_
+8	ans	_	NOUN	_	_	3	nmod	_	_
+9	de	_	ADP	_	_	10	case	_	_
+10	prison	_	NOUN	_	_	3	obl	_	_
+11	.	_	PUNCT	_	_	3	punct	_	_
+
+# text = la nouvelle a été diffusée dans tous les villages de la province.
+# text_en = the news was carried to every village in the province .
+1	la	_	DET	_	_	2	det	_	_
+2	nouvelle	_	NOUN	_	_	5	nmod	_	_
+3	a	_	AUX	_	_	5	aux	_	_
+4	été	_	AUX	_	_	5	aux	_	_
+5	diffusée	_	VERB	_	_	0	root	_	_
+6	dans	_	PART	_	_	9	case	_	_
+7	tous	_	ADJ	_	_	9	adj	_	_
+8	les	_	DET	_	_	9	det	_	_
+9	villages	_	NOUN	_	_	5	obl	_	_
+10	de	_	ADP	_	_	12	case	_	_
+11	la	_	DET	_	_	12	det	_	_
+12	province	_	NOUN	_	_	9	nmod	_	_
+13	.	_	PUNCT	_	_	5	punct	_	_
+
+# text = je transporte ces pensées dans le fond de ma tête .
+# text_en = I carry these thoughts in the back of my head .									
+1	je	_	PRON	_	_	2	nsubj	_	_
+2	transporte	_	VERB	_	_	0	root	_	_
+3	ces	_	DET	_	_	4	det	_	_
+4	pensées	_	NOUN	_	_	2	obj	_	_
+5	dans	_	ADP	_	_	7	case	_	_
+6	le	_	DET	_	_	7	det	_	_
+7	fond	_	NOUN	_	_	2	obl	_	_
+8	de	_	ADP	_	_	10	case	_	_
+9	ma	_	PRON	_	_	10	nmod:poss	_	_
+10	tête	_	NOUN	_	_	7	nmod	_	_
+11	.	_	PUNCT	_	_	2	punct	_	_
+
+# text = Adam aurait été transporté au sein de la vie éternelle .
+# text_en = Adam would have been carried over into the life eternal .									
+1	Adam	_	PROPN	_	_	4	nsubj	_	_
+2	aurait	_	AUX	_	_	4	aux	_	_
+3	été	_	AUX	_	_	4	aux	_	_
+4	transporté	_	VERB	_	_	0	root	_	_
+5	au	_	ADP	_	_	6	advmod	_	_
+6	sein	_	NOUN	_	_	7	nmod	_	_
+7	de	_	ADP	_	_	9	case	_	_
+8	la	_	DET	_	_	9	det	_	_
+9	vie	_	NOUN	_	_	4	obl	_	_
+10	éternelle	_	ADJ	_	_	9	amod	_	_
+11	.	_	PUNCT	_	_	4	punct	_	_
+
+# text = les boîtiers ont pourri et ont dû être remplacés .
+# text_en = the casings had rotted away and had to be replaced .									
+1	les	_	DET	_	_	2	det	_	_
+2	boîtiers	_	NOUN	_	_	4	nsubj	_	_
+3	ont	_	AUX	_	_	4	aux	_	_
+4	pourri	_	VERB	_	_	0	root	_	_
+5	et	_	CCONJ	_	_	9	cc	_	_
+6	ont	_	VERB	_	_	9	conj	_	_
+7	dû	_	PART	_	_	9	mark	_	_
+8	être	_	AUX	_	_	9	aux	_	_
+9	remplacés	_	VERB	_	_	4	xcomp	_	_
+10	.	_	PUNCT	_	_	4	punct	_	_
+
+# text = elle était furieuse que ce petit bout de fille ose la ridiculiser devant la classe .
+# text_en = she was incensed that this chit of a girl should dare to make a fool of her in front of the class .									
+1	elle	_	PRON	_	_	3	nsubj	_	_
+2	était	_	AUX	_	_	3	aux	_	_
+3	furieuse	_	ADJ	_	_	0	root	_	_
+4	que	_	SCONJ	_	_	10	mark	_	_
+5	ce	_	DET	_	_	6	det	_	_
+6	petit	_	ADJ	_	_	7	amod	_	_
+7	bout	_	NOUN	_	_	10	nmod	_	_
+8	de	_	ADP	_	_	9	case	_	_
+9	fille	_	NOUN	_	_	7	nmod	_	_
+10	ose	_	VERB	_	_	3	ccomp	_	_
+11	la	_	PRON	_	_	10	nmod	_	_
+12	ridiculiser	_	VERB	_	_	10	xcomp	_	_
+13	devant	_	NOUN	_	_	12	obl	_	_
+14	la	_	DET	_	_	15	det	_	_
+15	classe	_	NOUN	_	_	13	nmod	_	_
+16	.	_	PUNCT	_	_	3	punct	_	_
+
+# text = le glissement de terrain qu'il a eu au collège électoral a obscurci l'étroitesse d'une victoire basée sur seulement 43% du vote populaire .
+# text = the landslide he had in the electoral college obscured the narrowness of a victory based on just 43% of the popular vote .									
+1	le	_	DET	_	_	2	det	_	_
+2	glissement	_	NOUN	_	_	9	obj	_	_
+3	de	_	ADP	_	_	4	case	_	_
+4	terrain	_	NOUN	_	_	2	nmod	_	_
+5	qu'	_	SCONJ	_	_	9	mark	_	_
+6	il	_	PRON	_	_	9	nsubj	_	_
+7	y	_	ADP	_	_	9	case	_	_
+8	a	_	AUX	_	_	9	aux	_	_
+9	eu	_	VERB	_	_	0	root	_	_
+10	au	_	DET	_	_	11	det	_	_
+11	collège	_	NOUN	_	_	9	obl	_	_
+12	électoral	_	NOUN	_	_	11	compound	_	_
+13	a	_	AUX	_	_	14	aux	_	_	
+14	obscurci	_	VERB	_	_	9	ccomp	_	_
+15	l'	_	DET	_	_	16	det	_	_
+16	étroitesse	_	NOUN	_	_	9	obj	_	_
+17	d'	_	ADP	_	_	19	case	_	_
+18	une	_	DET	_	_	19	det	_	_
+19	victoire	_	NOUN	_	_	16	nmod	_	_
+20	basée	_	VERB	_	_	19	acl	_	_
+21	sur	_	ADP	_	_	24	case	_	_
+22	seulement	_	ADV	_	_	23	advmod	_	_
+23	43	_	NUM	_	_	24	nummod	_	_
+24	%	_	SYM	_	_	20	compound	_	_
+25	du	_	ADP	_	_	26	case	_	_
+26	vote	_	NOUn	_	_	24	nmod	_	_
+27	populaire	_	ADJ	_	_	26	amod	_	_
+28	.	_	PUNCT	_	_	9	punct	_	_
+
+# text = Les troupes américaines transportent désormais de l'atropine et des auto-injecteurs dans leurs trousses de premiers soins à utiliser en cas d'intoxication par un agent neurotoxique organophosphoré .
+# text_en = United States troops now carry atropine and autoinjectors in their first-aid kits to use in case of organophosphate nerve agent poisoning .									
+1	Les	_	DET	_	_	2	det	_	_
+2	troupes	_	NOUN	_	_	4	nsubj	_	_
+3	américaines	_	NOUN	_	_	2	compound	_	_
+4	transportent	_	VERB	_	_	0	root	_	_
+5	désormais	_	ADV	_	_	4	advmod	_	_
+6	de	_	ADP	_	_	8	case	_	_
+7	l'	_	DET	_	_	8	det	_	_
+8	atropine	_	NOUN	_	_	4	obj	_	_
+9	et	_	CCONJ	_	_	8	cc	_	_
+10	des	_	DET	_	_	12	det	_	_
+11	auto	_	NOUN	_	_	12	compound	_	_
+12	-injecteurs	_	NOUN	_	_	8	conj	_	_
+13	dans	_	ADP	_	_	15	case	_	_
+14	leur	_	PRON	_	_	15	nmod:poss	_	_
+15	trousses	_	NOUN	_	_	12	compound	_	_
+16	de	_	ADP	_	_	18	case	_	_
+17	premiers	_	ADJ	_	_	18	amod	_	_
+18	soins	_	NOUN	_	_	4	obl	_	_
+19	à	_	PART	_	_	20	mark	_	_
+20	utiliser	_	VERB	_	_	4	advcl	_	_
+21	en	_	ADP	_	_	22	case	_	_
+22	cas	_	NOUN	_	_	20	obl	_	_
+23	d'	_	ADP	_	_	24	case	_	_
+24	intoxication	_	NOUN	_	_	22	nmod	_	_
+25	par	_	ADJ	_	_	27	amod	_	_
+26	un	_	DET	_	_	27	det	_	_
+27	agent	_	NOUN	_	_	21	nmod	_	_
+28	neurotoxique	_	NOUN	_	_	22	compound	_	_
+29	organophosphoré	_	NOUN	_	_	17	compound	_	_
+30	.	_	PUNCT	_	_	4	punct	_	_
+
+# text = il peut accomplir par l'artisanat à long terme ce qu'il ne peut pas faire par la force et la violence à court terme .
+# text_en = he may accomplish by craft in the long run what he cannot do by force and violence in the short one .									
+1	il	_	PRON	_	_	3	nsubj	_	_
+2	peut	_	AUX	_	_	3	aux	_	_
+3	accomplir	_	VERB	_	_	0	root	_	_
+4	par	_	ADP	_	_	6	case	_	_
+5	l'	_	DET	_	_	6	det	_	_
+6	artisanat	_	NOUN	_	_	3	obl	_	_
+7	à	_	ADP	_	_	9	case	_	_
+8	long	_	ADJ	_	_	9	amod	_	_
+9	terme	_	NOUN	_	_	3	obl	_	_
+10	ce	_	ADP	_	_	11	case	_	_
+11	qu'	_	PRON	_	_	16	obj	_	_
+12	il	_	PRON	_	_	16	nsubj	_	_
+13	ne	_	PART	_	_	15	advmod	_	_
+14	peut	_	AUX	_	_	16	aux	_	_
+15	pas	_	PART	_	_	16	advmod	_	_
+16	faire	_	VERB	_	_	3	ccomp	_	_
+17	par	_	ADP	_	_	19	case	_	_
+18	la	_	DET	_	_	19	det	_	_
+19	force	_	NOUN	_	_	16	obl	_	_
+20	et	_	CCONJ	_	_	22	cc	_	_
+21	la	_	DET	_	_	22	det	_	_
+22	violence	_	NOUN	_	_	19	conj	_	_
+23	à	_	ADP	_	_	25	case	_	_
+24	court	_	ADJ	_	_	25	amod	_	_
+25	terme	_	NOUN	_	_	16	obl	_	_
+26	.	_	PUNCT	_	_	3	punct	_	_
+
+# text = il a été dit que seule une société hiérarchisée avec une classe de loisirs au sommet peut produire des œuvres d'art .
+# text_en = it has been said that only a hierarchical society with a leisure class at the top can produce works of art .									
+1	il	_	PRON	_	_	4	nsubj	_	_
+2	a	_	AUX	_	_	4	aux	_	_
+3	été	_	AUX	_	_	4	aux	_	_
+4	dit	_	VERB	_	_	0	root	_	_
+5	que	_	SCONJ	_	_	18	mark	_	_
+6	seule	_	ADV	_	_	8	advmod	_	_
+7	une	_	DET	_	_	8	det	_	_
+8	société	_	NOUN	_	_	18	nsubj	_	_
+9	hiérarchisée	_	ADJ	_	_	8	amod	_	_
+10	avec	_	ADP	_	_	12	case	_	_
+11	une	_	DET	_	_	12	det	_	_
+12	classe	_	NOUN	_	_	8	nmod	_	_
+13	de	_	ADP	_	_	14	case	_	_
+14	loisirs	_	NOUN	_	_	12	compound	_	_
+15	à	_	ADP	_	_	17	case	_	_
+16	son	_	PRON	_	_	17	nmod:poss	_	_
+17	sommet	_	NOUN	_	_	12	nmod	_	_
+18	peut	_	AUX	_	_	19	aux	_	_
+19	produire	_	VERB	_	_	4	ccomp	_	_
+20	des	_	DET	_	_	21	det	_	_
+21	œuvres	_	NOUN	_	_	19	obj	_	_
+22	d'	_	ADP	_	_	23	case	_	_
+23	art	_	NOUN	_	_	21	nmod	_	_
+24	.	_	PUNCT	_	_	4	punct	_	_
+
+# text = son ingénieuse explication selon laquelle il n'aurait pas brûlé l'église s'il n'avait pas pensé que l'évêque y était .
+# text_en = his ingenuous explanation that he would not have burned the church if he had not thought the bishop was in it .									
+1	son	_	PRON	_	_	3	nmod:poss	_	_
+2	ingénieuse	_	ADJ	_	_	3	amod	_	_
+3	explication	_	NOUN	_	_	0	root	_	_
+4	selon	_	ADP	_	_	5	case	_	_
+5	laquelle	_	SCONJ	_	_	10	mark	_	_
+6	il	_	PRON	_	_	10	nsubj	_	_
+7	n'	_	PART	_	_	9	advmod	_	_
+8	aurait	_	AUX	_	_	10	aux	_	_
+9	pas	_	PART	_	_	10	advmod	_	_
+10	brûlé	_	AUX	_	_	3	ccomp	_	_
+11	l'	_	DET	_	_	12	det	_	_
+12	église	_	NOUN	_	_	10	obj	_	_
+13	s'	_	SCONJ	_	_	18	mark	_	_
+14	il	_	PRON	_	_	18	nsubj	_	_
+15	n'	_	PART	_	_	17	advmod	_	_
+16	avait	_	AUX	_	_	18	aux	_	_
+17	pas	_	PART	_	_	18	advmod	_	_
+18	pensé	_	VERB	_	_	10	advcl	_	_
+19	que	_	SCONJ	_	_	21	mark	_	_
+20	l'	_	DET	_	_	21	det	_	_
+21	évêque	_	NOUN	_	_	19	nsubj	_	_
+22	y	_	PRON	_	_	23	obj	_	_
+23	était	_	VERB	_	_	21	ccomp	_	_
+24	.	_	PUNCT	_	_	3	punct	_	_
